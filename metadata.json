@@ -1,0 +1,6 @@
+{
+  "name": "ShelterOps AI – Disaster Prediction & Smart Shelter Allocation System",
+  "description": "AI-based disaster prediction, multi-hazard risk analysis, and constraint-optimized smart shelter allocation across India with Google Maps Platform integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
