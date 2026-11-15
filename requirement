@@ -1,0 +1,9 @@
+# ---- ShelterOps AI : backend dependencies (pinned, tested) ----
+# Install with:  pip install -r requirements.txt
+flask==3.1.3
+flask-cors==6.0.5
+python-dotenv==1.2.4
+google-genai>=1.0.0
+
+# No numpy/pandas/requests needed: the AI engine is pure standard-library
+# Python on purpose (fast, portable, easy to read in a viva).
