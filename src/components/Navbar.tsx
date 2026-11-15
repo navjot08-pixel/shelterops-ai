@@ -13,6 +13,7 @@ import {
   Radio,
   Clock,
   Sparkles,
+  FileDown,
 } from 'lucide-react';
 import { User } from 'firebase/auth';
 
@@ -118,6 +119,18 @@ export const Navbar: React.FC<NavbarProps> = ({
             <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
             <span>Thinking: HIGH</span>
           </div>
+
+          {/* PPTX Presentation Deck Download */}
+          <a
+            href="/ShelterOps_AI_Presentation.pptx"
+            download="ShelterOps_AI_Presentation.pptx"
+            className="px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all cursor-pointer shadow bg-amber-600 hover:bg-amber-500 text-white shadow-amber-500/20"
+            title="Download Academic 12-Slide PPTX Deck (CSE276)"
+          >
+            <FileDown className="w-3.5 h-3.5" />
+            <span className="hidden sm:inline">Presentation Deck (.pptx)</span>
+            <span className="sm:hidden">.pptx</span>
+          </a>
 
           {/* Google Chat Trigger */}
           <button
